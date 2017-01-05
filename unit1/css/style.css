@@ -1,6 +1,10 @@
 body {
     background-color: blue;
 }
+h1 {font-family: arial, sans-serif;
+	font-weight: normal;
+	font-style: italic;
+ 	font-size: 75px}
 
 h1, p {
     color: gold;
