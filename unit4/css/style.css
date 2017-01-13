@@ -1,6 +1,6 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
-p {
+body {
 	font-family: palatino,georgia,serif;
 	font-size: 18px;
 	line-height: 1.5em;
@@ -14,12 +14,13 @@ section {
     color: #fff;
 }
 #splash {
-    background: url(images/hero.png);
+	background-image: url(images/hero02.png);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
 }
 #nav {
+	background-image: url(images/hero02.png);
 	text-align: right;
 	font-size: 25px;
 	font-weight: bold;
