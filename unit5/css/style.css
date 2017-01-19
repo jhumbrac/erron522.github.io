@@ -1,0 +1,86 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+header {
+	background-image: url(..images/hero04.png);
+	background-color: red;
+	width: 1200px
+}
+
+#about {
+	font-size: 24px;
+	line-height: 38px;
+	color: #094a96;
+    background-repeat: no-repeat;
+    text-align: justify;
+    width: 800px;
+    padding: 15px;
+    margin: 40px 100px;
+}
+#welcome {
+	font-family: 'Overpass', sans-serif;
+	text-align: center;
+	padding: 15px;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	margin: 2em;
+}
+
+nav {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	color: #094a96;
+	padding: 10px;
+	float: right;
+}
+#serv.cli {
+	width: 1200px;
+	height: 900px;
+	padding: 10px;
+	border: 10px;
+}
+#service {
+    color: #000;
+    float: left;
+}
+
+#clients {
+    color: #000;
+    float: right;
+}
+
+#projects {
+	width: 1200px
+}
+#depaul {
+	float: left;
+
+}
+#marianos {
+	float: left;
+	margin: 0 0 0 7px;
+
+
+}
+#metra {
+	float: right;
+	margin: 0 0 0 7px;
+
+}
+#wholefoods {
+	float: right;
+}
+
+
+#footer {
+    color: #094a96;
+    width: 1200px;
+}
+#copyright {
+	font-size: 14px;
+	text-align: center;
+
+}

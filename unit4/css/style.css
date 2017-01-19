@@ -10,9 +10,15 @@ body {
 section {
     padding: 4em 0;
 }
+
+#nav {
+	text-align: right;
+	font-size: 25px;
+	font-weight: bold;
+	color: #094a96;
+}
 #service {
-    background: navy;
-    color: #fff;
+    color: #000;
 }
 #splash {
 	background-image: url(images/hero02.png);
@@ -20,19 +26,20 @@ section {
     background-size: cover;
     text-align: center;
 }
-#nav {
-	text-align: right;
-	font-size: 25px;
-	font-weight: bold;
-	color: 094a96;
-	
+
+
+#clients {
+    color: #000;
+}
+
+#footer {
+    color: #094a96;
+}
+#copyright {
+	font-size: 14px;
+	text-align: center;
 
 }
-#clients {
-	background: navy;
-    color: #fff;
-}
-#contact {
-	background: navy;
-    color: #fff;
+.contemporary-projects {
+
 }
