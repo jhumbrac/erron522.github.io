@@ -1,9 +1,9 @@
-* { margin:0; padding:0; box-sizing:border-box; }
+* {margin:0;padding:0;box-sizing:border-box;}
 header {
 	background-image: url(../images/hero08.png);
 	background-repeat: no-repeat;
-	width: auto;
-	
+	background-size: cover;
+	height: 90vh;
 }
 #logo {
 	padding: 18px;
@@ -44,9 +44,9 @@ header {
 	font-size: 24px;
 	line-height: 38px;
 	color: #021226;
-    text-align: justify;
-    width: auto;
-    float: left;
+	text-align: justify;
+	width: 50%;
+	float: left;
 }
 #splash {
 	line-height: 35px;
@@ -54,10 +54,9 @@ header {
 	padding-top: 170px;
 	background: #021226;
 	display: block;
-	width: 300px;
+	width: 50%;
 	height: 450px;
-	float: right;
-	
+	float: left;
 }
 #welcome {
 	font-family: 'Overpass', sans-serif;
@@ -69,7 +68,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 	line-height: 1.5;
-	margin: 2em;
+	/* margin: 2em; */
 }
 nav {
 	background: #021226;
@@ -103,54 +102,48 @@ nav a:hover {
     color: #000;
     float: left;
     background-color: red;
-    padding-left: 200px
-
+    /* padding-left: 200px; */
+    width: 50%;
 }
 
 #clients {
     color: #000;
     float: right;
     background-color: yellow;
-    padding-left: 200px;
+    /* padding-left: 200px; */
+    width: 50%;
 }
 
 #projects {
 	width: 1200px;
-	display: inline-block;
 	text-align: left;
-	margin: 2.7em;
-
+	margin: 2.7em auto;
 }
 #depaul {
 	text-align: center;
-	padding-left: 100px;
-    width: 200px;
-  	float: left;
-  	margin-left: 1.8em;
-
+	width: 25%;
+	float: left;
 }
 #marianos {
 	text-align: center;
-	padding-left: 100px;
-    width: 200px;
-    float: left;
-    margin-left: 1.8em;
-
+	/* padding-left: 100px; */
+	width: 25%;
+	float: left;
+	/* margin-left: 1.8em; */
 }
 #metra {
 	text-align: center;
-	padding-left: 100px;
-    width: 200px;
-    float: left;
-    margin-left: 1.8em;
-
+	/* padding-left: 100px; */
+	width: 25%;
+	float: left;
+	/* margin-left: 1.8em; */
 }
 #wholefoods {
 	text-align: center;
-	padding-left: 100px;
-    width: 200px;
-    float: left;
-    margin-left: 1.8em;
+	/* padding-left: 100px; */
+	width: 25%;
+	float: left;
+	/* margin-left: 1.8em; */
 }
 .projects-content {
 	text-decoration: none;
@@ -161,12 +154,34 @@ nav a:hover {
 
 footer {
     color: #fff;
-    width: 1200px;
     background-color:  #021226;
-    clear: both;
 }
 #copyright {
 	font-size: 14px;
 	text-align: center;
 
+}
+#projects img {
+    width: 100%;
+}
+#projects div {
+    padding:.25em
+}
+
+article {
+    width: 1200px;
+    margin: auto;
+}
+
+section#service-clients {
+    width: 600px;
+    margin: auto;
+}
+
+ul {
+    padding-left: 1.25em;
+}
+
+footer a {
+    color: inherit;
 }
