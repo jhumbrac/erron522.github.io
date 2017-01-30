@@ -1,0 +1,172 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+header {
+	background-image: url(../images/hero08.png);
+	background-repeat: no-repeat;
+	width: auto;
+	
+}
+#logo {
+	padding: 18px;
+}
+
+#create {
+	font-size: 60px;
+	font-weight: bold;
+	font-family: 'Overpass', sans-serif;
+	color: #f15a24;
+
+}
+#future {
+	font-size: 25px;
+	color: #fff;
+}
+#through {
+	font-size: 64px;
+	color: #fff;
+	font-family: 'Overpass', sans-serif;
+}
+#building {
+	font-size: 23.2px;
+	color: #fff;
+}
+#green {
+	font-size: 22px;
+	color: #fff;
+}
+#smart {
+	font-size: 37px;
+	font-weight: bold;
+	font-family: 'Overpass', sans-serif;
+	color: #f15a24;
+}
+
+#about {
+	font-size: 24px;
+	line-height: 38px;
+	color: #021226;
+    text-align: justify;
+    width: auto;
+    float: left;
+}
+#splash {
+	line-height: 35px;
+	text-align: center;
+	padding-top: 170px;
+	background: #021226;
+	display: block;
+	width: 300px;
+	height: 450px;
+	float: right;
+	
+}
+#welcome {
+	font-family: 'Overpass', sans-serif;
+	text-align: center;
+	padding: 15px;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	margin: 2em;
+}
+nav {
+	background: #021226;
+	float: right;
+
+    
+}
+
+nav a {
+	font-size: 30px;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	color: #fff;
+	padding: 5px 10px;
+	text-decoration: none;
+	display: block;
+	float: right;
+}
+nav a:hover { 
+  background-color: #f15a24; 
+}
+#serv.cli {
+	width: 1200px;
+	text-align: center;
+	height: 900px;
+	padding: 10px;
+	border: 10px;
+	clear: both;
+	
+}
+#service {
+    color: #000;
+    float: left;
+    background-color: red;
+    padding-left: 200px
+
+}
+
+#clients {
+    color: #000;
+    float: right;
+    background-color: yellow;
+    padding-left: 200px;
+}
+
+#projects {
+	width: 1200px;
+	display: inline-block;
+	text-align: left;
+	margin: 2.7em;
+
+}
+#depaul {
+	text-align: center;
+	padding-left: 100px;
+    width: 200px;
+  	float: left;
+  	margin-left: 1.8em;
+
+}
+#marianos {
+	text-align: center;
+	padding-left: 100px;
+    width: 200px;
+    float: left;
+    margin-left: 1.8em;
+
+}
+#metra {
+	text-align: center;
+	padding-left: 100px;
+    width: 200px;
+    float: left;
+    margin-left: 1.8em;
+
+}
+#wholefoods {
+	text-align: center;
+	padding-left: 100px;
+    width: 200px;
+    float: left;
+    margin-left: 1.8em;
+}
+.projects-content {
+	text-decoration: none;
+	text-align: right;
+	width: 400px;
+}
+
+
+footer {
+    color: #fff;
+    width: 1200px;
+    background-color:  #021226;
+    clear: both;
+}
+#copyright {
+	font-size: 14px;
+	text-align: center;
+
+}
