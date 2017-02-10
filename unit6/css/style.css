@@ -4,8 +4,6 @@ header {
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 70vh;
-	margin: 10px;
-	width: 1200px;
 }
 h2 {text-decoration: underline;
 	font-weight: bolder;
@@ -140,69 +138,36 @@ nav a:hover {
 	margin: 2.7em auto;
 	padding:.25em
 }
-#depaul {
+#projects a {
 	text-align: center;
-	width: 25%;
+	width: 24%;
 	float: left;
-
-}
-#marianos {
-	text-align: center;
-	/* padding-left: 100px; */
-	width: 25%;
-	float: left;
-	/* margin-left: 1.8em; */
-}
-#metra {
-	text-align: center;
-	/* padding-left: 100px; */
-	width: 25%;
-	float: left;
-	/* margin-left: 1.8em; */
-}
-#wholefoods {
-	text-align: center;
-	/* padding-left: 100px; */
-	width: 25%;
-	float: left;
-	/* margin-left: 1.8em; */
-}
-
-.projects-content {
+	margin: .5%;
 	text-decoration: none;
-	text-align: right;
 	color: #021226;
 	font-size: 18px;
-	width: 50px;
-	
 }
-
+#projects img {
+    width: 100%;
+}
 address {
-	line-height: 200px;
 }
 
 
 footer {
     color: #fff;
     background-color:  #021226;
-	clear: both;
-	/* padding-left: 100px; */
-	padding-top: 100px;
-	width: 1200px;
-	height: 125px
+    clear: both;
+    width: 1200px;
+    margin: auto;
+    padding: 2em;
 }
 #copyright {
 	font-size: 14px;
 	text-align: center;
 
 }
-#projects img {
-    width: 200px;
 
-}
-#projects div {
-    padding:.25em
-}
 
 ul {
     padding-left: 1.25em;
