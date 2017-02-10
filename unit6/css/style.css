@@ -3,21 +3,27 @@ header {
 	background-image: url(../images/hero08.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 90vh;
+	height: 70vh;
+	margin: 10px;
+	width: 1200px;
 }
+h2 {text-decoration: underline;
+	font-weight: bolder;
+	font-size: 27px;
+	}
 #logo {
 	padding: 18px;
 }
 
 #create {
-	font-size: 60px;
+	font-size: 62px;
 	font-weight: bold;
 	font-family: 'Overpass', sans-serif;
 	color: #f15a24;
 
 }
 #future {
-	font-size: 25px;
+	font-size: 30.2px;
 	color: #fff;
 }
 #through {
@@ -26,36 +32,45 @@ header {
 	font-family: 'Overpass', sans-serif;
 }
 #building {
-	font-size: 23.2px;
+	font-size: 27px;
 	color: #fff;
 }
 #green {
-	font-size: 22px;
+	font-size: 26.5px;
 	color: #fff;
 }
 #smart {
-	font-size: 37px;
+	font-size: 38.2px;
 	font-weight: bold;
 	font-family: 'Overpass', sans-serif;
 	color: #f15a24;
 }
 
+article {
+    width: 1200px;
+    height: 355px;
+    margin: 10px auto;
+    padding-bottom: 15px;
+}
+
 #about {
-	font-size: 24px;
+	font-size: 25px;
 	line-height: 38px;
 	color: #021226;
 	text-align: justify;
-	width: 50%;
+	width: 70%;
 	float: left;
+	padding-right: 70px;
+
 }
 #splash {
 	line-height: 35px;
 	text-align: center;
-	padding-top: 170px;
+	padding-top: 30px;
 	background: #021226;
 	display: block;
-	width: 50%;
-	height: 450px;
+	width: 30%;
+	height: 300px;
 	float: left;
 }
 #welcome {
@@ -71,7 +86,6 @@ body {
 	/* margin: 2em; */
 }
 nav {
-	background: #021226;
 	float: right;
 
     
@@ -81,48 +95,56 @@ nav a {
 	font-size: 30px;
 	font-family: 'Fira Sans Extra Condensed', sans-serif;
 	color: #fff;
-	padding: 5px 10px;
+	padding-right: 40px;
+	padding-top: 20px;
 	text-decoration: none;
 	display: block;
 	float: right;
 }
 nav a:hover { 
-  background-color: #f15a24; 
+  color: #f15a24; 
 }
-#serv.cli {
-	width: 1200px;
+#service-clients {
+	width: 650px;
 	text-align: center;
-	height: 900px;
-	padding: 10px;
-	border: 10px;
+	height: 300px;
+	padding-top: 15px;
 	clear: both;
+     margin: 10px auto;
 	
 }
 #service {
+	font-size: 25px;
     color: #000;
     float: left;
-    background-color: red;
     /* padding-left: 200px; */
     width: 50%;
+    text-align: left;
+    line-height: 30px;
 }
 
 #clients {
+	font-size: 25px;
     color: #000;
     float: right;
-    background-color: yellow;
     /* padding-left: 200px; */
     width: 50%;
+    text-align: left;
+    line-height: 30px;
+   
 }
 
 #projects {
 	width: 1200px;
 	text-align: left;
 	margin: 2.7em auto;
+	padding:.25em
 }
 #depaul {
 	text-align: center;
 	width: 25%;
 	float: left;
+
 }
 #marianos {
 	text-align: center;
@@ -145,16 +167,29 @@ nav a:hover {
 	float: left;
 	/* margin-left: 1.8em; */
 }
+
 .projects-content {
 	text-decoration: none;
 	text-align: right;
-	width: 400px;
+	color: #021226;
+	font-size: 18px;
+	width: 50px;
+	
+}
+
+address {
+	line-height: 200px;
 }
 
 
 footer {
     color: #fff;
     background-color:  #021226;
+	clear: both;
+	/* padding-left: 100px; */
+	padding-top: 100px;
+	width: 1200px;
+	height: 125px
 }
 #copyright {
 	font-size: 14px;
@@ -162,20 +197,11 @@ footer {
 
 }
 #projects img {
-    width: 100%;
+    width: 200px;
+
 }
 #projects div {
     padding:.25em
-}
-
-article {
-    width: 1200px;
-    margin: auto;
-}
-
-section#service-clients {
-    width: 600px;
-    margin: auto;
 }
 
 ul {
@@ -184,4 +210,15 @@ ul {
 
 footer a {
     color: inherit;
+}
+hr {
+	width: 1200px;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
 }
