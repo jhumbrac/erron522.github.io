@@ -61,6 +61,8 @@ article {
 	width: 70%;
 	float: left;
 	padding-right: 70px;
+	padding-top: 50px;
+	margin-left: 2.2%;
 
 }
 #splash {
@@ -69,15 +71,15 @@ article {
 	padding-top: 15px;
 	background: #021226;
 	display: block;
-	width: 30%;
+	width: 27.5%;
 	height: 300px;
 	float: left;
 }
 #welcome {
 	font-family: 'Overpass', sans-serif;
-	font-size: 40px;
+	font-size: 50px;
 	text-align: left;
-	padding-bottom: 15px;
+	padding-bottom: 25px;
 	color: #808080;
 }
 
@@ -112,7 +114,8 @@ nav a:hover {
 	height: 300px;
 	padding-top: 15px;
 	clear: both;
-     margin: 10px auto;
+    margin: 10px auto;
+
 	
 }
 #service {
