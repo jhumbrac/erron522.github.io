@@ -55,7 +55,7 @@ article {
 
 #about {
 	font-size: 20px;
-	line-height: 38px;
+	line-height: 38.2px;
 	color: #021226;
 	text-align: justify;
 	width: 70%;
@@ -66,13 +66,13 @@ article {
 
 }
 #splash {
-	line-height: 38px;
+	line-height: 40px;
 	text-align: center;
 	padding-top: 15px;
 	background: #021226;
 	display: block;
 	width: 27.5%;
-	height: 300px;
+	height: 310px;
 	float: left;
 }
 #welcome {
@@ -161,8 +161,7 @@ nav a:hover {
 	margin-left: 2.2%;
 
 }
-address {
-}
+
 
 
 footer {
@@ -192,7 +191,7 @@ hr {
 }
 .more {
 	color: #f15a24;
-	text-decoration: none;
+	font-style: italic;
 }
 .clearfix:after {
   visibility: hidden;
@@ -202,3 +201,49 @@ hr {
   clear: both;
   height: 0;
 }
+
+
+@media screen and (max-width: 854px) {
+	nav a {font-size: 23px;
+		padding-right: 16px;
+	}
+
+@media screen and (max-width: 752px) {
+	nav a {font-size: 27px;
+		   padding-right: 16px;
+		   float: none;}
+	article {
+    width: 740px;
+    height: 355px;
+    margin: 10px auto;
+    padding-bottom: 15px;
+}
+#about {
+	font-size: 17px;
+}
+#service {
+	font-size: 17px;  
+}
+
+#clients {
+	font-size: 17px;
+}
+#welcome {
+	font-size: 30px;
+	}
+h2 {font-size: 23px;}
+footer {
+	font-size: 17px;
+    width: 740px;
+}
+#copyright {
+	font-size: 13px;
+	padding-top: 2em;
+
+}
+#projects {
+	width: 752px;
+	float: none;}
+}
+
+

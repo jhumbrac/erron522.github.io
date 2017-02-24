@@ -193,6 +193,7 @@ hr {
 .more {
 	color: #f15a24;
 	text-decoration: none;
+	font-style: italic;
 }
 .clearfix:after {
   visibility: hidden;

@@ -1,0 +1,249 @@
+* {margin:0;padding:0;box-sizing:border-box;}
+header {
+	background-image: url(../images/hero08.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 70vh;
+}
+h2 {
+	font-weight: bolder;
+	font-size: 27px;
+	padding-bottom: 10px;
+	color: #808080;
+	}
+#logo {
+	padding: 18px;
+}
+
+#create {
+	font-size: 72px;
+	font-weight: bold;
+	font-family: 'Overpass', sans-serif;
+	color: #f15a24;
+
+}
+#future {
+	font-size: 30.2px;
+	color: #fff;
+}
+#through {
+	font-size: 74px;
+	color: #fff;
+	font-family: 'Overpass', sans-serif;
+}
+#building {
+	font-size: 27.8px;
+	color: #fff;
+}
+#green {
+	font-size: 26.5px;
+	color: #fff;
+}
+#smart {
+	font-size: 44px;
+	font-weight: bold;
+	font-family: 'Overpass', sans-serif;
+	color: #f15a24;
+}
+
+article {
+    width: 1200px;
+    height: 355px;
+    margin: 10px auto;
+    padding-bottom: 15px;
+}
+
+#about {
+	font-size: 20px;
+	line-height: 38.2px;
+	color: #021226;
+	text-align: justify;
+	width: 70%;
+	float: left;
+	padding-right: 70px;
+	padding-top: 50px;
+	margin-left: 2.2%;
+
+}
+#splash {
+	line-height: 40px;
+	text-align: center;
+	padding-top: 15px;
+	background: #021226;
+	display: block;
+	width: 27.5%;
+	height: 310px;
+	float: left;
+}
+#welcome {
+	font-family: 'Overpass', sans-serif;
+	font-size: 50px;
+	text-align: left;
+	padding-bottom: 25px;
+	color: #808080;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	/* margin: 2em; */
+}
+nav {
+	float: right;
+
+    
+}
+
+nav a {
+	font-size: 30px;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	color: #fff;
+	padding-right: 40px;
+	padding-top: 20px;
+	text-decoration: none;
+	display: block;
+	float: right;
+}
+nav a:hover { 
+  color: #f15a24; 
+}
+#service-clients {
+	width: 650px;
+	text-align: center;
+	height: 300px;
+	padding-top: 15px;
+	clear: both;
+    margin: 10px auto;
+
+	
+}
+#service {
+	font-size: 20px;
+    color: #000;
+    float: left;
+    /* padding-left: 200px; */
+    width: 50%;
+    text-align: left;
+    line-height: 30px;
+}
+
+#clients {
+	font-size: 20px;
+    color: #000;
+    float: right;
+    /* padding-left: 200px; */
+    width: 50%;
+    text-align: left;
+    line-height: 30px;
+   
+}
+
+#projects {
+	width: 1200px;
+	text-align: left;
+	margin: 2.7em auto;
+	padding:.25em
+}
+#projects a {
+	text-align: center;
+	width: 20%;
+	float: left;
+	margin: 2.2%;
+	text-decoration: none;
+	color: #021226;
+	font-size: 18px;
+}
+#projects img {
+    width: 100%;
+}
+#projects_title {
+	margin-left: 2.2%;
+
+}
+
+
+
+footer {
+    color: #fff;
+    background-color:  #021226;
+    clear: both;
+    width: 1200px;
+    margin: auto;
+    padding: 2em;
+}
+#copyright {
+	font-size: 14px;
+	text-align: center;
+
+}
+
+
+ul {
+    padding-left: 1.25em;
+}
+
+footer a {
+    color: inherit;
+}
+hr {
+	width: 1200px;
+}
+.more {
+	color: #f15a24;
+	font-style: italic;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+
+@media screen and (max-width: 854px) {
+	nav a {font-size: 23px;
+		padding-right: 16px;
+	}
+
+@media screen and (max-width: 752px) {
+	nav a {font-size: 27px;
+		   padding-right: 16px;
+		   float: none;}
+	article {
+    width: 740px;
+    height: 355px;
+    margin: 10px auto;
+    padding-bottom: 15px;
+}
+#about {
+	font-size: 17px;
+}
+#service {
+	font-size: 17px;  
+}
+
+#clients {
+	font-size: 17px;
+}
+#welcome {
+	font-size: 30px;
+	}
+h2 {font-size: 23px;}
+footer {
+	font-size: 17px;
+    width: 740px;
+}
+#copyright {
+	font-size: 13px;
+	padding-top: 2em;
+
+}
+#projects {
+	width: 752px;
+	float: none;}
+}
+
+
