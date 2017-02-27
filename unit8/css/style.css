@@ -5,6 +5,7 @@ header {
 	background-size: cover;
 	height: 70vh;
 }
+
 h2 {
 	font-weight: bolder;
 	font-size: 27px;
@@ -14,36 +15,11 @@ h2 {
 #logo {
 	padding: 18px;
 }
+#logo:hover {
+	color: #f15a24; 
+}
 
-#create {
-	font-size: 72px;
-	font-weight: bold;
-	font-family: 'Overpass', sans-serif;
-	color: #f15a24;
 
-}
-#future {
-	font-size: 30.2px;
-	color: #fff;
-}
-#through {
-	font-size: 74px;
-	color: #fff;
-	font-family: 'Overpass', sans-serif;
-}
-#building {
-	font-size: 27.8px;
-	color: #fff;
-}
-#green {
-	font-size: 26.5px;
-	color: #fff;
-}
-#smart {
-	font-size: 44px;
-	font-weight: bold;
-	font-family: 'Overpass', sans-serif;
-	color: #f15a24;
 }
 
 article {
@@ -66,13 +42,8 @@ article {
 
 }
 #splash {
-	line-height: 40px;
-	text-align: center;
-	padding-top: 15px;
-	background: #021226;
 	display: block;
 	width: 27.5%;
-	height: 310px;
 	float: left;
 }
 #welcome {
@@ -203,6 +174,36 @@ hr {
 }
 
 
+@media screen and (max-width: 1132px) {
+	#welcome {
+	font-size: 35px;
+	text-align: center;
+}
+#about {
+	font-size: 20px;
+	line-height: 38.2px;
+	color: #021226;
+	text-align: justify;
+	width: 65%;
+
+}
+#projects {
+	width: 1128px;
+	float: none;
+}
+#splash {
+	display: block;
+	width: 25%;
+	float: left;
+}
+}
+@media screen and (max-width: 1070px) {
+	#projects {
+	width: 1010px;
+	float: none;
+}
+}
+
 @media screen and (max-width: 854px) {
 	nav a {font-size: 23px;
 		padding-right: 16px;
@@ -211,14 +212,24 @@ hr {
 @media screen and (max-width: 752px) {
 	nav a {font-size: 27px;
 		   padding-right: 16px;
-		   float: none;}
+		   display: inline-block;
+		   float: none;
+		   
+		   }
+header {text-align: center;
+}
+#splash {display: none;
+}
+
 	article {
     width: 740px;
     height: 355px;
     margin: 10px auto;
     padding-bottom: 15px;
 }
+
 #about {
+	width: 100%;
 	font-size: 17px;
 }
 #service {
@@ -242,8 +253,46 @@ footer {
 
 }
 #projects {
-	width: 752px;
+	width: 685px;
 	float: none;}
+#projects a {
+	width: 45%;
+}
+@media screen and (max-width: 570px) {
+header {text-align: center;
+}
+
+#projects {
+	width: 565px;
+	float: none;
+}
+#projects a {
+	width: 45%;
+}
+#service-clients {
+	width: 565px;
+
+}
+@media screen and (max-width: 400px) {
+	nav a {
+		font-size: 25px;
+	}
+	#about {
+		width: 56%;
+	}
+	#service-clients {
+	width: 390px;}
+	#projects {
+	width: 390px;
+}
+	#welcome {text-align: center;}
+	#copyright {
+	font-size: 13px;
+	padding-top: 2em;
+	text-align: left;
+
+}
+
 }
 
 
