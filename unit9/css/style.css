@@ -23,7 +23,7 @@ h2 {
 }
 
 article {
-    width: 1200px;
+    max-width: 1200px;
     height: 355px;
     margin: 10px auto;
     padding-bottom: 15px;
@@ -70,24 +70,20 @@ nav a {
 	font-size: 30px;
 	font-family: 'Fira Sans Extra Condensed', sans-serif;
 	color: #fff;
-	padding-right: 40px;
-	padding-top: 20px;
+	padding: .5em 1em;
 	text-decoration: none;
-	display: block;
-	float: right;
+	display: inline-block;
 }
 nav a:hover { 
   color: #f15a24; 
 }
 #service-clients {
-	width: 650px;
+	max-width: 650px;
 	text-align: center;
-	height: 300px;
 	padding-top: 15px;
 	clear: both;
-    margin: 10px auto;
-
-	
+	margin: 10px auto;
+	border-top: 2px solid;
 }
 #service {
 	font-size: 20px;
@@ -111,19 +107,18 @@ nav a:hover {
 }
 
 #projects {
-	width: 1200px;
+	max-width: 1200px;
 	text-align: left;
 	margin: 2.7em auto;
-	padding:.25em
+	padding:.25em;
 }
 #projects a {
 	text-align: center;
 	width: 20%;
 	float: left;
-	margin: 2.2%;
+	margin: 2.5%;
 	text-decoration: none;
 	color: #021226;
-	font-size: 18px;
 }
 #projects img {
     width: 100%;
@@ -139,7 +134,7 @@ footer {
     color: #fff;
     background-color:  #021226;
     clear: both;
-    width: 1200px;
+    max-width: 1200px;
     margin: auto;
     padding: 2em;
 }
@@ -158,7 +153,6 @@ footer a {
     color: inherit;
 }
 hr {
-	width: 1200px;
 }
 .more {
 	color: #f15a24;
@@ -176,102 +170,79 @@ hr {
 
 @media screen and (max-width: 1132px) {
 	#welcome {
-	font-size: 35px;
-	text-align: center;
-}
-#about {
-	font-size: 20px;
-	line-height: 38.2px;
-	color: #021226;
-	text-align: justify;
-	width: 65%;
-
-}
-#projects {
-	width: 1128px;
-	float: none;
-}
-#splash {
-	display: block;
-	width: 25%;
-	float: left;
-}
-}
-@media screen and (max-width: 1070px) {
-	#projects {
-	width: 1010px;
-	float: none;
-}
-}
-
-@media screen and (max-width: 854px) {
-	nav a {font-size: 23px;
-		padding-right: 16px;
+		font-size: 35px;
+		text-align: center;
 	}
-
+	#about {
+		font-size: 20px;
+		line-height: 38.2px;
+		color: #021226;
+		text-align: justify;
+		width: 65%;
+		margin: auto;
+		float: none;
+		padding: 4em 0;
+	}
+	#splash {
+		display: block;
+		width: 25%;
+		float: left;
+	}
+}
+@media screen and (max-width: 854px) {
+	nav a {
+		font-size: 23px;
+	}
+}
 @media screen and (max-width: 752px) {
-	nav a {font-size: 27px;
-		   padding-right: 16px;
-		   display: inline-block;
-		   float: none;
-		   
-		   }
-header {text-align: center;
-}
-#splash {display: none;
-}
+	nav a {
+		font-size: 27px;
+		background:#f15a24;
+		color:#fff;
+		margin:.25em;
+		text-align:center;
+	}
+	nav a:hover {
+		color:#fff;
+	}
+	header {
+		text-align: center;
+	}
+	nav {
+		float:none;
+	}
+	#splash {
+		display: none;
+	}
 
 	article {
-    width: 740px;
-    height: 355px;
-    margin: 10px auto;
-    padding-bottom: 15px;
-}
-
-#about {
-	width: 100%;
-	font-size: 17px;
-}
-#service {
-	font-size: 17px;  
-}
-
-#clients {
-	font-size: 17px;
-}
-#welcome {
-	font-size: 30px;
+		margin: 10px auto;
+		padding-bottom: 15px;
 	}
-h2 {font-size: 23px;}
-footer {
-	font-size: 17px;
-    width: 740px;
-}
-#copyright {
-	font-size: 13px;
-	padding-top: 2em;
-
-}
-#projects {
-	width: 685px;
-	float: none;}
-#projects a {
-	width: 45%;
+	body {
+		font-size:17px;
+	}
+	#welcome {
+		font-size: 30px;
+	}
+	h2 {
+		font-size: 23px;
+	}
+	#copyright {
+		font-size: 14px;
+		padding-top: 2em;
+	}
+	#projects {
+		float: none;
+	}
+	#projects a {
+		width: 45%;
+	}
 }
 @media screen and (max-width: 570px) {
-header {text-align: center;
-}
-
-#projects {
-	width: 565px;
-	float: none;
-}
-#projects a {
-	width: 45%;
-}
-#service-clients {
-	width: 565px;
-
+	header {
+		text-align: center;
+	}
 }
 @media screen and (max-width: 400px) {
 	nav a {
@@ -280,19 +251,13 @@ header {text-align: center;
 	#about {
 		width: 56%;
 	}
-	#service-clients {
-	width: 390px;}
-	#projects {
-	width: 390px;
-}
-	#welcome {text-align: center;}
+	#welcome {
+		text-align: center;
+	}
 	#copyright {
-	font-size: 13px;
-	padding-top: 2em;
-	text-align: left;
-
-}
-
+		padding-top: 2em;
+		text-align: left;
+	}
 }
 
 
